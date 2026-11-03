@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         html,body{
+            overflow-x: hidden;
+        }
+        .navbar{
+             width: 1375px;
+             height:90px;
+             background:#000000;
+             display:flex;
+             justify-content:space-between;
+             align-items:center;
+             padding:0 80px;
+             box-shadow:0 2px 8px rgba(0,0,0,.08);
+             margin-left:-9px;
+             
+         }
+         .logo{
+            font-size:40px;
+            font-weight:bold;
+            color:#10cb2f;
+            margin-top:-10px;
+        }
+        .menu{
+            display:flex;
+            align-items:center;
+            gap:20px;
+           
+        }
+        .menu a{ 
+            text-decoration:none;
+            color:#f8f5f5;
+            font-size:20px;
+            font-weight:bold;
+             margin-left:50px;
+        }
+        .sq2{
+            height:3px;
+            width:65px;
+            border:2px solid black;
+            background-color: #31b155;
+            margin-top:50px;
+            border-radius: 10px;
+            margin-left:-88px;
+
+        }
+        .card1{
+            height:690px;
+            width:1533px;
+            border:2px solid rgb(240, 235, 235);
+            background-color: #a8e7b0;
+            margin-top:0px;
+            margin-left: -10px;;
+        }
+        .card1 h1{
+            font-size:50px;
+            margin-top:70px;
+            margin-left:50px;
+        }
+        .card1 span{
+            color:rgb(17, 113, 17);
+        }
+        .card1 button{
+            background-color: #56cb78;
+            height:31px;
+            width:120px;
+            border-radius: 10px;
+            margin-top:90px;
+            margin-left:50px;
+            border:none;
+            box-shadow: #aba9a9;
+            color:rgb(17, 113, 17);
+            font-weight: bold;
+            font-size:15px;
+        }
+        .card1 p{
+            font-size:20px;
+            font-family:Arial, Helvetica, sans-serif;
+            color:rgb(88, 86, 86);
+            margin-left:50px;
+            line-height:1.7;
+            margin-top:25px;
+        }
+        .box{
+            height:7px;
+            width:90px;
+            border:2px solid black;
+            margin-top:-100px;
+            margin-left:50px;
+            border-radius:10px;
+            background-color:rgb(17, 113, 17);
+            border:none;
+
+        }
+        .card2{
+             height:530px;
+            width:1530px;
+            border:2px solid rgb(240, 235, 235);
+            background-color: #eaefeb;
+            margin-left:-8px;
+        }
+        .card2 h3{
+            margin-left:640px;
+            margin-top:20px;
+            font-size:33px;
+        }
+        .card2 span{
+            color:rgb(18, 123, 18);
+
+        }
+        .screen1{
+           height:220px;
+            width:430px;
+            border:2px solid rgb(236, 255, 234);
+            border-radius: 9px;
+            background-color: #9cdca5;
+            margin-top:70px;
+            color:rgb(7, 0, 0);
+            margin-left:80px;
+        }
+        .screen2{
+           height:220px;
+            width:430px;
+            border:2px solid rgb(236, 255, 234);
+            border-radius: 9px;
+            background-color: #9cdca5;
+            margin-top:-220px;
+            color:rgb(7, 0, 0);
+            margin-left:560px;
+        }
+        .screen3{
+           height:220px;
+            width:440px;
+            border:2px solid rgb(236, 255, 234);
+            border-radius: 9px;
+            background-color: #9cdca5;
+            margin-top:-220px;
+            color:rgb(7, 0, 0);
+            margin-left:1040px;
+        }
+        .card3{
+            height:600px;
+            width:1533px;
+            border:2px solid rgb(240, 235, 235);
+            background-color: #a8e7b0;
+            margin-top:0px;
+            margin-left: -10px;;
+        }
+        .card3 h3{
+            margin-left:650px;
+            font-size:35px;
+            margin-top:10px;
+        }
+        .card3 span{
+            color:rgb(18, 123, 18);
+
+        }
+        .box1{
+            
+           height:290px;
+            width:400px;
+            border:2px solid rgb(236, 255, 234);
+            border-radius: 9px;
+            background-color: #daf0dd;
+            margin-top:80px;
+            color:rgb(7, 0, 0);
+            margin-left:340px;
+            transition: transform 0.3s ease;
+             box-shadow:0.3s ease;
+        }
+        .box1:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        .boxes{
+            display:grid;
+            grid-template-columns: 30px 30px 30px;
+            gap:420px;
+            margin-left:-200px;
+            margin-top:-30px;
+        }
+        .card4{
+            height:380px;
+            width:1533px;
+            border:2px solid rgb(240, 235, 235);
+            background-color: #0f4917;
+            margin-top:0px;
+            margin-left: -10px;;
+        }
+        .col2{
+            margin-left:460px;
+            margin-top:-180px;
+           
+        }
+        .col2 p{
+            color:rgb(208, 206, 206);
+            margin-left:5px;
+            height:13px;
+        }
+        .col3{
+            margin-left:820px;
+            margin-top:-234px;
+           
+        }
+         .col3 p{
+            color:rgb(208, 206, 206);
+            margin-left:2px;
+            height:13px;
+        }
+        .col4{
+             margin-left:1190px;
+            margin-top:-290px;
+        }
+    </style>
+</head>
+<body>
+     <div class="navbar">
+        <div class="logo">
+            Zahrah Tech
+        </div>
+            <p style="color:white; margin-top:60px;font-size:13px;margin-left:-550px;">Driven by innovation.Powered by Knowledge.</p>
+        <div class="menu">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="career.html">Careers</a>
+            <div class="sq2"></div>
+            <a href="course.html">Courses</a>
+            <a href="internship.html">Internships</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+     <div class="card1">
+        <button>Career</button>
+        <h1 >Build Your Career <br><span>With Us</span> </h1>
+        <p>Join our growing team and work in a collaborative<br>environment where you can learn,develop your skills,<br>and build meaningful solutions.</p>
+        <img src="career.png"style="width:860px;height:600px;margin-left:650px;margin-top:-450px;">
+         <div class="box"></div>
+    </div>
+    <div class="card2">
+        <h2 style="font-size:18px;margin-top:30px;color:rgb(18, 123, 18);margin-left:680px;width:250px;">WHY WORK WITH US?</h2>
+        <h3>More Than <span>Just a Job</span></h3>
+        <p style="margin-left:560px;font-size:18px;margin-top:-20px;">We believe in creating opportunities for growth,learning and success.</p>
+    <div class="screen1">
+                <img src="grow.jpeg"style="width:80px;border-radius:120px;margin-left:20px;margin-top:36px;">
+              <h3 style="font-size:25px;background-color:40px;margin-left:130px;margin-top:-80px;font-weight:bold">Learn & Grow </h3>
+              <p style="color:rgb(81, 79, 79);margin-left:130px;line-height:1.5;margin-top:-12px;font-size:16px;">Develop your technical and <br>professional skills through<br>continuous learning.</p>
+    </div>
+    <div class="screen2">
+                <img src="jet.jpeg"style="width:80px;border-radius:120px;margin-left:20px;margin-top:26px;">
+              <h3 style="font-size:25px;background-color:40px;margin-left:130px;margin-top:-70px;font-weight:bold">Career Growth</h3>
+              <p style="color:rgb(81, 79, 79);margin-left:130px;line-height:1.5;margin-top:-12px;font-size:16px;">Get opportunities to take on <br>new challenges and grow <br> in your career.</p>
+    </div>
+    <div class="screen3">
+                <img src="group.jpeg"style="width:80px;border-radius:120px;margin-left:20px;margin-top:26px;">
+              <h3 style="font-size:25px;background-color:40px;margin-left:130px;margin-top:-70px;font-weight:bold">Collaborative Environment</h3>
+              <p style="color:rgb(81, 79, 79);margin-left:130px;line-height:1.5;margin-top:-12px;font-size:16px;">Work with a supportive team <br>and learn from experienced <br>professionals.</p>
+    </div>
+   </div>
+   <div class="card3">
+        <h3 style="color:rgb(16, 116, 16);margin-left:650px;font-size:16px;margin-top:50px;">CURRENT OPPORTUNITIES </h3>
+        <h3>Join Our <span>Team</span></h3>
+        <p style="margin-left:430px;margin-top:-10px;font-size:18px;">Explore the open roles and take the next step towards a rewarding career with  Zahrah Tech Academy.</p>
+       <div class="boxes">
+        <div class="box1">
+            <img src="c5.jpeg"style="width:100px;height:100px;margin-left:10px;margin-top:10px;"">
+            <h3 style="margin-left:10px;margin-top:10px;font-size:20px;">Web Developer</h3>
+            <p style="font-size:15px;margin-left:10px;color:rgb(109, 108, 108);">We are looking for a passionate developer with knowledge<br> of HTML,CSS,JavaScript and modern web technologies.</p>
+            <button style="margin-left:10px;margin-top:10px;border-radius:5px;height:30px;width:130px;color:rgb(235, 234, 234);background-color:#478642;">Apply Now →</button>
+
+        </div>
+        <div class="box1">
+            <img src="c4.jpeg"style="width:100px;height:100px;margin-left:10px;margin-top:10px;"">
+            <h3 style="margin-left:10px;margin-top:10px;font-size:20px;">Python Developer </h3>
+            <p style="font-size:15px;margin-left:10px;color:rgb(109, 108, 108);">Opportunity for candidates interested in Python,Django and backend development.</p>
+            <button style="margin-left:10px;margin-top:10px;border-radius:5px;height:30px;width:130px;color:rgb(235, 234, 234);background-color:#478642;">Apply Now →</button>
+        </div>
+        <div class="box1">
+            <img src="c6.jpeg"style="width:100px;height:100px;margin-left:10px;margin-top:10px;"">
+            <h3 style="margin-left:10px;margin-top:10px;font-size:20px;">UI/UX Designer </h3>
+            <p style="font-size:15px;margin-left:10px;color:rgb(109, 108, 108);">Looking for a creative designer with knowledge of Figma, wireframing and user-centered design.</p>
+            <button style="margin-left:10px;margin-top:20px;border-radius:5px;height:30px;width:130px;color:rgb(235, 234, 234);background-color:#478642;">Apply Now →</button>
+        </div>
+      </div>
+      </div>
+      <div class="card4">
+        <div class="col1">
+        <h2 style="color:rgb(215, 213, 213);font-size:30px;margin-left:90px;margin-top:50px;">Zahrah Tech </h2>
+        <p style="color:rgb(209, 206, 206);margin-left:90px;">Learn . Build . Grow</p>
+        <img src="in1.jpg"style="height:40px;border-radius:20px;width:40px;margin-left:80px;margin-top:20px;">
+        <img src="f.png"style="height:40px;border-radius:50px;width:40px;margin-left:20px;margin-top:20px;">
+        <img src="insta.jpg"style="height:40px;border-radius:60px;width:40px;margin-left:20px;margin-top:20px;">
+
+    </div>
+        <div class="col2">
+            <h2 style="color:rgb(215, 213, 213);font-size:28px;">Quick Links</h2>
+            <p>Home</p>
+             <p>About</p>
+             <p>Courses</p>
+             <p>Internship</p>
+             <p>Career</p>
+             <p>Contact</p>
+        </div>
+         <div class="col3">
+            <h2 style="color:rgb(215, 213, 213);font-size:28px;">Courses</h2>
+             <p>Web Development</p>
+             <p>Python Full Stack</p>
+             <p>UI/UX Design</p>
+             <p>Data Science</p>
+             <p>Javascript Development</p>
+             <p>React JS</p>
+             <p>SQL & Database Management</p>
+             <p>Digital Marketing</p>
+        </div>
+        <div class="col4">
+            <h2 style="color:rgb(215, 213, 213);font-size:28px;">Contact</h2>
+            <img src="call-removebg-preview.png"style=height:13px;width:15px;margin-top:0px;> 
+            <h3 style="color:white;font-size:15px;margin-top:-20px;margin-left:20px;font-weight: lighter;">8764532560</h3>
+            <img src="emaillogo-removebg-preview.png"style=height:15px;width:15px;margin-top:0px;> 
+            <h3 style="color:white;font-size:15px;margin-top:-20px;margin-left:20px;font-weight: lighter;">info@zahrahtech.com</h3>
+            <img src="location-removebg-preview.png"style=height:20px;width:20px;margin-top:0px;> 
+            <h3 style="color:white;font-size:13px;margin-top:-20px;margin-left:20px;font-weight: lighter;">Trichy Tamil Nadu</h3>
+        </div>
+</body>
+</html>
